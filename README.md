@@ -5,7 +5,7 @@ shell script create a new sbt project
 
 Run script`./sbt_new_project`
 
-``
+```sh
 $ 当前目录是：/ROOT/scripts/sbtNewProject
 $ 请输入项目名称，如果不如将使用默认的项目名称project_name：
 >sbt_project_test
@@ -17,5 +17,5 @@ $请输入sbt的版本，默认使用0.12.3:
 >0.12.0
 $请输入 organization,默认是com.example:
 >com.ruifeng.sun
-``
+```
 
