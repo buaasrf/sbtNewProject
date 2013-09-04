@@ -89,6 +89,13 @@ name:="${project_name}"
 scalaVersion:="${scala_version}"
 
 version:="${project_version}"
+
+#libraryDependencies += "com.dajie.profile" % "dj-profile-api" % "1.2.03" excludeAll(
+#ExclusionRule(organization = "com.dajie",name = "dj-infra-user-api"),
+#ExclusionRule(organization = "com.dajie",name = "dj-infra-user-client"),
+#ExclusionRule(organization = "com.dajie.common",name = "dajie-common-dubbo")
+#)
+
 build_sbt
 
 	cat > $project_name/project/build.properties << build_properties
